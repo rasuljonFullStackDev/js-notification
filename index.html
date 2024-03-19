@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>js-notification</title>
+    </head>
+    <body>
+        <h1>js-notification</h1>
+    </body>
+    <!-- <script>
+    if ("Notification" in window) {
+    if (Notification.permission === "granted") {
+        notify();
+    } else {
+        Notification.requestPermission().then(res => {
+            if (res === "granted") {
+                notify();
+            } else {
+                console.error("Did not receive permission for notifications");
+            }
+        })
+    }
+} else {
+    console.error("Browser does not support notifications");
+}
+
+function notify() {
+
+    const notification = new Notification('Breaking:',{
+        body: `Celebrity Caught in Fresh Scandal`,
+        icon: './img/git.png',
+        vibration: [300,200,300],
+    });
+
+    notification.addEventListener('click', function() {
+        window.open('https://www.openjavascript.info');
+    });
+
+    setTimeout(() => notification.close(), 5*1000);
+
+}
+
+  </script> -->
+</html>
